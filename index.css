@@ -138,9 +138,6 @@
     color: white;
 }
 
-.about-image-container {
-    position: static;
-}
 
 .about-image {
     width: 355px;
@@ -174,9 +171,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .about {
-        height: 63vh;
-    }
+
 
     .about-inner-container {
         flex-direction: column;
