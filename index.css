@@ -135,18 +135,21 @@
 .about-inner-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     color: white;
 }
 
 
+
 .about-image {
     width: 355px;
+    height: 290px;
     max-width: 300px;
     padding: 7px;
     padding-right: 9px;
-    align-items: center;
     border-radius: 50%;
 }
+
 
 .about-content {
     margin-left: 80px;
@@ -184,7 +187,8 @@
 
     .about-image {
         width: 250px;
-        margin-bottom: 70px;
+        height: 245px;
+        margin-bottom: 50px;
     }
 
     .about-text {
@@ -241,7 +245,7 @@
 
 @media screen and (max-width: 768px) {
     .skills {
-        height: 90vh;
+        height: 85vh;
     }
 
     .skills-head {
